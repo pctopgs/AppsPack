@@ -1,0 +1,2 @@
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+choco install seatools windirstat 7zip putty wireshark vscode visualstudio2015community libreoffice-fresh vlc gimp notepadplusplus microsoft-edge-insider nmap -y
