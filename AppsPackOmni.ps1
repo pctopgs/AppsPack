@@ -15,15 +15,15 @@ $choice = Read-Host -Prompt "Choice: "
 
 if ($choice -eq 1) # Workstation
 {
-    choco install seatools windirstat 7zip putty wireshark vscode visualstudio2019community libreoffice-fresh vlc gimp notepadplusplus microsoft-edge shotcut github-desktop krita tor-browser -y
+    choco install seatools windirstat 7zip putty wireshark vscode visualstudio2019community libreoffice-fresh vlc gimp notepadplusplus microsoft-edge shotcut github-desktop krita tor-browser choco install sumatrapdf -y
 }
 elseif($choice -eq 2) # Laptop
 {
-    choco install seatools windirstat 7zip putty wireshark vscode visualstudio2019community libreoffice-fresh vlc gimp notepadplusplus microsoft-edge-insider shotcut github-desktop tor-browser -y
+    choco install seatools windirstat 7zip putty wireshark vscode visualstudio2019community libreoffice-fresh vlc gimp notepadplusplus microsoft-edge-insider shotcut github-desktop tor-browser choco install sumatrapdf -y
 }
 elseif($choice -eq 3) # Tablet
 {
-    choco install seatools windirstat 7zip putty wireshark vscode visualstudio2019community libreoffice-fresh vlc gimp notepadplusplus microsoft-edge-insider-dev nmap -y
+    choco install seatools windirstat 7zip putty wireshark vscode visualstudio2019community libreoffice-fresh vlc gimp notepadplusplus microsoft-edge-insider-dev nmap choco install sumatrapdf -y
 }
 elseif($choice -eq 4) # Small Tablet
 {
