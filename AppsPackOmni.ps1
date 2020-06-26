@@ -31,7 +31,7 @@ if ($choice -eq 1) # Workstation
 
 {
     write-host "Workstation"
-    choco install seatools windirstat 7zip putty wireshark vscode <#visualstudio2019community#> libreoffice-fresh vlc gimp notepadplusplus microsoft-edge shotcut github-desktop krita tor-browser choco install sumatrapdf -y
+    choco install seatools windirstat 7zip putty wireshark vscode <#visualstudio2019community#> libreoffice-fresh vlc gimp notepadplusplus microsoft-edge shotcut github-desktop krita tor-browser install sumatrapdf -y
 
 }
 
@@ -39,7 +39,7 @@ elseif($choice -eq 2) # Laptop
 
 {
     write-host "Laptop"
-    #choco install seatools windirstat 7zip putty wireshark vscode visualstudio2019community libreoffice-fresh vlc gimp notepadplusplus microsoft-edge-insider shotcut github-desktop tor-browser choco install sumatrapdf -y
+    #choco install seatools windirstat 7zip putty wireshark vscode visualstudio2019community libreoffice-fresh vlc gimp notepadplusplus microsoft-edge-insider shotcut github-desktop tor-browser install sumatrapdf -y
 
 }
 
@@ -47,7 +47,7 @@ elseif($choice -eq 3) # Tablet
 
 {
     write-host "Tablet"
-    #choco install seatools windirstat 7zip putty wireshark vscode visualstudio2019community libreoffice-fresh vlc gimp notepadplusplus microsoft-edge-insider-dev nmap choco install sumatrapdf -y
+    #choco install seatools windirstat 7zip putty wireshark vscode visualstudio2019community libreoffice-fresh vlc gimp notepadplusplus microsoft-edge-insider-dev nmap install sumatrapdf -y
 
 }
 
