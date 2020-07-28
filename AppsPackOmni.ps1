@@ -26,7 +26,7 @@ if ($choice -eq 1) # Workstation
 
 {
     write-host "Workstation"
-    choco install seatools windirstat 7zip putty hwmonitor sumatrapdf youtube-dl github-desktop wireshark microsoft-edge vscode vlc gimp notepadplusplus shotcut krita tor-browser libreoffice-fresh visualstudio2019community -y
+    choco install seatools windirstat 7zip putty hwmonitor sumatrapdf youtube-dl github-desktop wireshark microsoft-edge vscode vlc gimp notepadplusplus blender shotcut krita tor-browser thunderbird libreoffice-fresh visualstudio2019community -y
 
 }
 
