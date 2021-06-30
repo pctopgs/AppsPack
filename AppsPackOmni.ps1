@@ -57,7 +57,7 @@ elseif($choice -eq 5) # Media Server
 
 {
     write-host "Media Server"
-    #choco install seatools windirstat 7zip putty wireshark jellyfin sonarr radarr deluge -y
+    #choco install seatools putty jellyfin sonarr radarr deluge duplicati qbittorrent -y
 }
 
 elseif($choice -eq 0)
